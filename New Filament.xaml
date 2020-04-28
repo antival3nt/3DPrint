@@ -1,0 +1,59 @@
+﻿<Window x:Class="_3DPrint.New_Filament"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_3DPrint"
+        mc:Ignorable="d"
+        Title="Nyt Filament" Height="380
+        " Width="555
+        ">
+    <Grid>
+        <ComboBox HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Width="156"/>
+        <Label Content="Mærke" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Button Content="Nyt mærke" HorizontalAlignment="Left" Margin="10,68,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="10,182,0,0" TextWrapping="Wrap" Text="145" VerticalAlignment="Top" Width="156"/>
+        <ComboBox HorizontalAlignment="Left" Margin="10,124,0,0" VerticalAlignment="Top" Width="156"/>
+        <Label Content="Type" HorizontalAlignment="Left" Margin="10,93,0,0" VerticalAlignment="Top"/>
+        <Label Content="Pris" HorizontalAlignment="Left" Margin="10,151,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="10,242,0,0" TextWrapping="Wrap" Text="39" VerticalAlignment="Top" Width="156"/>
+        <Label Content="Fragt" HorizontalAlignment="Left" Margin="10,211,0,0" VerticalAlignment="Top"/>
+        <Separator Height="100" Margin="16,124,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="348" RenderTransformOrigin="0.5,0.5">
+            <Separator.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-90                                      "/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Separator.RenderTransform>
+        </Separator>
+        <Separator Height="100" Margin="0,297,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="190" RenderTransformOrigin="0.5,1.18">
+            <Separator.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Separator.RenderTransform>
+        </Separator>
+        <Label Content="Diameter (mm)" HorizontalAlignment="Left" Margin="200,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.83,3.731"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="200,41,0,0" TextWrapping="Wrap" Text="1,75" VerticalAlignment="Top" Width="156"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="10,302,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="156"/>
+        <Label Content="Vægt (kg)" HorizontalAlignment="Left" Margin="10,271,0,0" VerticalAlignment="Top"/>
+        <Label Content="Massefylde (g/cm3)" HorizontalAlignment="Left" Margin="200,74,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.83,3.731"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="200,105,0,0" TextWrapping="Wrap" Text="1,27" VerticalAlignment="Top" Width="156"/>
+        <Label Content="Nozzle Temp" HorizontalAlignment="Left" Margin="200,134,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.83,3.731"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="200,165,0,0" TextWrapping="Wrap" Text="210" VerticalAlignment="Top" Width="156"/>
+        <Label Content="Bed Temp" HorizontalAlignment="Left" Margin="200,194,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.83,3.731"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="200,225,0,0" TextWrapping="Wrap" Text="60" VerticalAlignment="Top" Width="156"/>
+        <Label Content="Længde pr. rulle (m)" HorizontalAlignment="Left" Margin="375,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.83,3.731"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="375,41,0,0" TextWrapping="Wrap" Text="346" VerticalAlignment="Top" Width="156"/>
+        <Label Content="Pris pr. kg" HorizontalAlignment="Left" Margin="375,75,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.83,3.731"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="375,105,0,0" TextWrapping="Wrap" Text="185" VerticalAlignment="Top" Width="156"/>
+        <Button Content="Opret" HorizontalAlignment="Left" Margin="471,311,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button Content="Afslut" HorizontalAlignment="Left" Margin="375,311,0,0" VerticalAlignment="Top" Width="60" Click="Button_Click"/>
+
+    </Grid>
+</Window>
